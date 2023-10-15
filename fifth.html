@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            position: relative;
+        }
+
+        .box1 {
+            height: 200px;
+            width: 200px;
+            background-color: #ed3e3e;
+            z-index: 2;
+            position: absolute;
+            left: 133px;
+            top: 120px;
+        }
+
+        .box2 {
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            z-index: 3;
+            background-color: #89f735;
+            left: 265px;
+        }
+
+        .box3 {
+            top: 198px;
+            z-index: 1;
+            position: relative;
+            height: 200px;
+            width: 200px;
+            background-color: #42e2dd;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Z-index:</h1>
+    <p>z-index is bascially use for gave the order to the elements.Elements with higher z-index value displays on the
+        top of the elements.Suppose we have to visible the 4th number element on 1st number so z-index comes in the
+        picture.In simple word it defines the order of elements.The last index by-default as highest. <br> <br>
+        <strong> Note:- </strong>
+        z-index works only on the positioned elements like absolute,relative,fixed etc...
+
+    </p>
+
+    <h2>Example of Z-index:-</h2>
+    <div class="box">
+        <div class="box1">box1 (Z-index 2)</div>
+        <div class="box2">box2 (Z-index 3)</div>
+        <div class="box3">box3 (Z-index 1)</div>
+    </div>
+
+
+
+</body>
+
+</html>

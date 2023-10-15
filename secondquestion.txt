@@ -1,0 +1,5 @@
+         Difference between absolute and relative positioning:-
+
+Absolute positioning:-The absolute positioning elements overlapped on each other.It specifies the properties like top,bottom,left,right.It is useful for positioning and overlapping on elements.The elements gets mixed with each other on the webpage.Absolute position always works with the relative position.
+
+Relative positioning:-In relative positioning we can set the right,left,top,bottom properties.It occupies the space thats why it affect the other elements layout.We can shift the positions using margin-left,margin-right properties.Relative position takes place and absolute doesn't takes place its just overlaps the elements.
